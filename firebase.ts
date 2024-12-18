@@ -9,14 +9,14 @@ import { getAuth } from 'firebase/auth'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyBuu0YHXOcgmqWLZl-fiMn6lG2wUhdPg8k',
-  authDomain: 'next-firebase-stripe-39bf8.firebaseapp.com',
-  databaseURL: 'https://next-firebase-stripe-39bf8-default-rtdb.firebaseio.com',
-  projectId: 'next-firebase-stripe-39bf8',
-  storageBucket: 'next-firebase-stripe-39bf8.appspot.com',
-  messagingSenderId: '777709922250',
-  appId: '1:777709922250:web:4500ee09dca93e1406d133',
-}
+  apiKey: "AIzaSyBbmJ0Wbu0YHSg3xQFtiH2TBPqTqB_h974",
+  authDomain: "bitovoice-91405.firebaseapp.com",
+  projectId: "bitovoice-91405",
+  storageBucket: "bitovoice-91405.firebasestorage.app",
+  messagingSenderId: "473721507116",
+  appId: "1:473721507116:web:1bc20bdace57a1a299f089",
+  measurementId: "G-08JCGD47JJ"
+};
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp()
 const db = getFirestore()
